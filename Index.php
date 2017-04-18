@@ -11,10 +11,11 @@
         </style>
         <link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<title>WEATHER APP</title>
-	<h2 align=center>Prediksi Cuaca Semarang</h2><br>
+	<h2 align=center>Prediction Weather 1 Weeks In Mugassari, Semarang</h2><br>
 			
 	</head>
 	<body>
+	
 	<?php
     require 'Conditions.php';
     error_reporting (E_ALL^ (E_NOTICE|E_WARNING));

@@ -17,7 +17,7 @@
 	$daerah  = $json_b->{'current_observation'}->{'display_location'}->{'city'};
 	$Kota  = $json_b->{'current_observation'}->{'observation_location'}->{'city'};
     $Neg  = $json_b->{'current_observation'}->{'display_location'}->{'state_name'};
-	
+	$temp = $json_b->{'current_observation'}->{'temp_c'};
 	
 	$haria = $json_a->{"forecast"}->{"simpleforecast"}->forecastday[1]->{"date"}->{"weekday"};
 	$tgla = $json_a->{"forecast"}->{"simpleforecast"}->forecastday[1]->{"date"}->{"day"};
@@ -99,4 +99,7 @@
 	$pngi = $json_a->{"forecast"}->{"simpleforecast"}->forecastday[9]->{"icon"};
 	$shi = $json_a->{"forecast"}->{"simpleforecast"}->forecastday[9]->{"high"}->{"celsius"};
 	$sli = $json_a->{"forecast"}->{"simpleforecast"}->forecastday[9]->{"low"}->{"celsius"};
+	
+	
+	
 ?>
